@@ -6,5 +6,9 @@
     --white: #fff;
 
     --header-font: ;
-    --main-font: ;
+    --main-font: "cambay", sans-serif;
+}
+
+* {
+    font-family: var(--main-font);
 }
