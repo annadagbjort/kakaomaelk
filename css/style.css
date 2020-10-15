@@ -9,8 +9,18 @@
     --main-font: "cambay", sans-serif;
 }
 
-* {
+body {
     font-family: var(--main-font);
+    background: #FEF7FF;
+}
+
+h1 {
+    /*    font-family: "titan one";*/
+    font-weight: bold;
+}
+
+h2 {
+    /*    line-height: 1.3em*/
 }
 
 p {
@@ -18,20 +28,35 @@ p {
     font-weight: 100;
 }
 
+nav {
+    width: 50vw;
+    margin-left: auto;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.2em;
+    padding-right: 100px;
+}
+
+.logo {
+    margin-top: -40px;
+}
+
 footer {
     background-color: #FCFBFB;
 }
 
 .hringir {
-    width: 300px;
+    /*    width: 300px;*/
 }
 
 .hSjovt {
     padding-top: 60px;
 }
 
-.biggerO {
-    width: 390px;
+/*.biggerO {*/
+/*    width: 390px;*/
 }
 
 .kisi-situr {
@@ -54,21 +79,38 @@ button {
     border-radius: 50px;
 }
 
+.hent {
+    width: 180px;
+    /*    margin-left: 50px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+}
+
+.hentbb {
+    background-color: aqua;
+}
+
 .drawingImg {
     order: -1;
+}
+
+.row {
+    /*    padding-top:100px;*/
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     body {
-        background-color: lightyellow;
+        /*        background-color: lightyellow;*/
     }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     body {
-        background-color: darkseagreen;
+        /*        background-color: darkseagreen;*/
     }
 
     .hSjovt {
@@ -83,14 +125,14 @@ button {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     body {
-        background-color: skyblue;
+        /*        background-color: skyblue;*/
     }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     body {
-        background-color: lightpink;
+        /*        background-color: lightpink;*/
     }
 
     .textiPakkning {
