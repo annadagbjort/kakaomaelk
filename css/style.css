@@ -13,6 +13,11 @@
     font-family: var(--main-font);
 }
 
+p {
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
 footer {
     background-color: #FCFBFB;
 }
