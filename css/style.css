@@ -12,3 +12,84 @@
 * {
     font-family: var(--main-font);
 }
+
+footer {
+    background-color: #FCFBFB;
+}
+
+.hringir {
+    width: 300px;
+}
+
+.hSjovt {
+    padding-top: 60px;
+}
+
+.biggerO {
+    width: 390px;
+}
+
+.kisi-situr {
+    width: 400px;
+
+}
+
+.glerflaska {
+    width: 160px;
+    transform: rotate(15deg);
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.netverslunBtn {
+    width: 200px;
+    border-radius: 50px;
+}
+
+.drawingImg {
+    order: -1;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    body {
+        background-color: darkseagreen;
+    }
+
+    .hSjovt {
+        padding-top: 100px;
+    }
+
+    .drawingImg {
+        order: 1;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body {
+        background-color: lightpink;
+    }
+
+    .textiPakkning {
+        order: -1;
+    }
+
+}
