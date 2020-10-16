@@ -1,5 +1,1 @@
-var rellax = new Rellax(".relax");
-
-function Rellax() {
-    console.log("heyhey")
-}
+var rellax = new Rellax(".rellax");
