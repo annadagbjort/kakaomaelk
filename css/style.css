@@ -113,6 +113,12 @@ button {
     /*    padding-top:100px;*/
 }
 
+footer {
+    padding: 0 100px;
+    font-size: 0.7em;
+    color: dimgray;
+}
+
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     body {
