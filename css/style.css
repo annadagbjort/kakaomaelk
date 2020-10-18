@@ -9,6 +9,10 @@
     --main-font: "cambay", sans-serif;
 }
 
+* {
+    /*    scroll-behavior: smooth;*/
+}
+
 body {
     font-family: var(--main-font);
     background: #FEF7FF;
@@ -48,12 +52,12 @@ footer {
 }
 
 .nytlook {
-/*    position: absolute;*/
+    /*    position: absolute;*/
 }
 
 .hringir {
-/*    position: absolute;*/
-
+    /*    position: absolute;*/
+    margin-bottom: 5em;
 }
 
 .hSjovt {
@@ -70,8 +74,12 @@ footer {
 }
 
 .glerflaska {
-    width: 160px;
-    transform: rotate(15deg);
+    /*    width: 160px;*/
+    /*    transform: rotate(15deg);*/
+}
+
+#tegninger {
+    margin-top: 8em;
 }
 
 button {
@@ -108,14 +116,14 @@ button {
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     body {
-        /*        background-color: lightyellow;*/
+        /*                background-color: lightyellow;*/
     }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     body {
-        /*        background-color: darkseagreen;*/
+        /*                background-color: darkseagreen;*/
     }
 
     .hSjovt {
@@ -130,14 +138,14 @@ button {
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     body {
-        /*        background-color: skyblue;*/
+        /*                background-color: skyblue;*/
     }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     body {
-        /*        background-color: lightpink;*/
+        /*                        background-color: lightpink;*/
     }
 
     .textiPakkning {
