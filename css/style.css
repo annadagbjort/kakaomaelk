@@ -7,7 +7,6 @@
     --black-color: #1d1d1c;
     --white: #fff;
 
-    --header-font: ;
     --main-font: "cambay", sans-serif;
 }
 
@@ -21,22 +20,13 @@ body {
 }
 
 h1 {
-    /*    font-family: "titan one";*/
     font-weight: bold;
 }
 
-h2 {
-    /*    line-height: 1.3em*/
-}
 
 p {
     font-size: 1.4em;
     font-weight: 100;
-}
-
-nav {
-    /*    width: 50vw;*/
-    /*    margin-left: auto;*/
 }
 
 .nav-link {
@@ -51,6 +41,9 @@ nav {
 
 footer {
     background-color: #FCFBFB;
+    padding: 0 100px;
+    font-size: 0.7em;
+    color: dimgray;
 }
 
 .nytlook {
@@ -66,19 +59,11 @@ footer {
     padding-top: 60px;
 }
 
-/*.biggerO {*/
-/*    width: 390px;*/
-}
-
 .kisi-situr {
     width: 400px;
 
 }
 
-.glerflaska {
-    /*    width: 160px;*/
-    /*    transform: rotate(15deg);*/
-}
 
 #tegninger {
     margin-top: 8em;
@@ -109,16 +94,6 @@ button {
 
 .drawingImg {
     order: -1;
-}
-
-.row {
-    /*    padding-top:100px;*/
-}
-
-footer {
-    padding: 0 100px;
-    font-size: 0.7em;
-    color: dimgray;
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
