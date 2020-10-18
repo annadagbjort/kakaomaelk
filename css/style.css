@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
     --brown-color: #72321c;
     --purple-color: #76133B;
@@ -10,7 +12,7 @@
 }
 
 * {
-    /*    scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 body {
